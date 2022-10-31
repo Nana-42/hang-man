@@ -12,11 +12,10 @@ while(counter == False):
     for n in word:
         if(guess == n):
             print("You have guessed", n)
-            gues
             word = word.replace(n, '')
             for i in range(len(word)):
                 print(new, end=' ')
-        else:
-            print("False! Enter aother letter")
             counter = True
-    print("Hello world")
+    else:
+        print("False! Enter aother letter")
+        
